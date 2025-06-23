@@ -6,7 +6,7 @@ jobs:
     - name: "job one"
       vm: 
         create:
-          name: 23june_03
+          name: 23june_04
       script: 
         - echo "condition with job test"
         - echo $TRAVIS_COMMIT_MESSAGE
